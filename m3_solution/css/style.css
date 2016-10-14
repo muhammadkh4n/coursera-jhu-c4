@@ -3,8 +3,11 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-#main-nav {
+#main-nav.navbar-default {
   background-color: #00b87b;
+  background-image: -webkit-linear-gradient(#00b87b, #00877b);
+  background-image: -moz-linear-gradient(#00b87b, #00877b);
+  background-image: linear-gradient(#00b87b, #00877b);
   border: none;
   border-radius: 0;
 }
